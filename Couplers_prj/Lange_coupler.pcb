@@ -1,0 +1,33 @@
+<QucsStudio Layout 5.8>
+<Properties>
+DataSet=*.dat
+DataDisplay=*.dpl
+OpenDisplay=1
+Grid=0.01 mm
+Mesh=20
+Excite=3|0.000001|4000
+Frequency=0.1 GHz|4 GHz|3901
+Boundary=20 mm|20 mm|2
+Substrate=Subst1|4.4|1.6 mm|0.01|1.72e-8|35 µm|0|1|0|0/0/10mm/10mm
+Radiation=0|1 GHz|81|41|4
+</Properties>
+<Items>
+Rectangle MS1 -0.01585 -0.0001 0|-0.003|0.01|0.003
+Rectangle MS3 -0.00585 -0.0001 0|-0.003|0.001|0.003
+Rectangle MS5 -0.00585 -0.0461 0|0|0.001|0.043
+Rectangle MS4 -0.00485 -0.0491 -0.001|0|0.001|0.003
+Rectangle MS2 -0.01585 -0.0461 0|-0.003|0.01|0.003
+Rectangle MS5 -0.00465 -0.0461 0|0|0.001|0.043
+Rectangle MS4 -0.00365 -0.0491 -0.001|0|0.001|0.003
+Rectangle MS2 -0.00365 -0.0461 0|-0.003|0.01|0.003
+Rectangle MS3 -0.00465 -0.0001 0|-0.003|0.001|0.003
+Rectangle MS1 -0.00365 -0.0001 0|-0.003|0.01|0.003
+Rectangle MS5 -0.00825 -0.0461 0|0|0.001|0.043
+Rectangle MS5 -0.00705 -0.0458 0|0|0.001|0.0424
+Lumped X -0.01585 -0.0476 1 2 50 0 0 0.003
+Lumped X -0.01585 -0.0016 2 2 50 0 0 0.003
+Lumped X 0.00635 -0.0476 3 2 50 0 0 0.003
+Lumped X 0.00635 -0.0016 4 2 50 0 0 0.003
+Bridge X -0.00535 -0.0037 0.0022 5e-05 0.001 0
+Bridge X -0.00535 -0.0455 0.0022 5e-05 0.001 0
+</Items>
