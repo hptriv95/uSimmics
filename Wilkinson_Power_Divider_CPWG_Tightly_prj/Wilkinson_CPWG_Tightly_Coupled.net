@@ -1,0 +1,5 @@
+# netlist created by uSimmics 5.8
+R1"100 Ω"SMD0402"_net20"_net21
+P2"4"con_2"_net5"gnd
+P1"1"con_2"_net3"gnd
+P3"3"con_2"_net6"gnd

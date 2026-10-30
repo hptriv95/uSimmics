@@ -1,0 +1,36 @@
+<QucsStudio Schematic 5.8>
+<Properties>
+View=-346.137,58.3919,1027.16,930,1.16667,0,0
+Grid=10,10,0
+DataSet=*.dat
+DataDisplay=*.pcb
+OpenDisplay=1
+showFrame=0
+FrameText0=Title \n @PATH@@FILE@
+FrameText1=Drawn By:
+FrameText2=Date: @DATE@
+FrameText3=Revision:
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+<Rect -180 340 360 220 31 #c0c0c0 1 00 1 1e+09 5e+08 5e+09 1 -51.913 20 7.15945 1 -1 0.5 1 -1 -1 -1 "" "" "">
+	<Legend 10 -100 0>
+	<"dB(S31)" "" #ff0000 1 3 0 0 0 1 "">
+	<"dB(S11)" "" #ff00ff 1 3 0 0 0 1 "">
+	  <Mkr 4.07e+09 190 -70 3 1 0 0 0 50>
+</Rect>
+<Rect -180 620 360 220 31 #c0c0c0 1 00 1 1e+09 5e+08 5e+09 1 -42.2894 20 6.30486 1 -1 0.5 1 -1 -1 -1 "" "" "">
+	<Legend 10 -100 0>
+	<"dB(S21)" "" #0000ff 1 3 0 0 0 1 "">
+	  <Mkr 2.595e+09 190 -60 3 1 0 0 0 50>
+	<"dB(S31)" "" #ff0000 1 3 0 0 0 1 "">
+	  <Mkr 2.655e+09 60 -190 3 1 0 0 0 50>
+</Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

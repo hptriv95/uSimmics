@@ -1,0 +1,74 @@
+<QucsStudio Schematic 5.8>
+<Properties>
+View=-14.2114,-175.987,1572.96,723.114,0.857145,26,0
+Grid=10,10,1
+DataSet=*.dat
+DataDisplay=*.dpl
+OpenDisplay=1
+showFrame=0
+FrameText0=Title \n @PATH@@FILE@
+FrameText1=Drawn By:
+FrameText2=Date: @DATE@
+FrameText3=Revision:
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+R R1 1 960 320 -71 -26 3 "100 Ω"1"26.85"0"US"0"SMD0402"0
+GND * 1 390 310 0 0 3
+Pac P1 1 420 310 -26 18 3 "1"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0
+GND * 1 1230 610 0 0 0
+MLIN MS1 1 550 310 -26 15 0 "Subst1"1"2.6 mm"1"10 mm"1"26.85"0
+MTEE MS2 1 670 310 15 -26 3 "Subst1"1"1.3 mm"1"1.3 mm"1"2.6 mm"1"showNumbers"0
+MLIN MS4 1 670 430 15 -26 1 "Subst1"1"1.3 mm"1"5 mm"1"26.85"0
+MMBEND MS6 1 670 570 -115 -26 2 "Subst1"1"1.3 mm"1
+MLIN MS7 1 830 570 -41 17 2 "Subst1"1"1.3 mm"1"7 mm"1"26.85"0
+MMBEND MS10 1 960 570 -26 15 3 "Subst1"1"1.3 mm"1
+MLIN MS18 1 1080 380 18 18 0 "Subst1"1"2.6 mm"1"3 mm"1"26.85"0
+MLIN MS20 1 1230 490 24 -36 1 "Subst1"1"2.6 mm"1"6 mm"1"26.85"0
+MMBEND MS16 1 1230 380 15 -7 0 "Subst1"1"2.6 mm"1
+MMBEND MS15 1 1230 260 12 -44 3 "Subst1"1"2.6 mm"1
+MLIN MS19 1 1230 150 24 -35 1 "Subst1"1"2.6 mm"1"6 mm"1"26.85"0
+MLIN MS17 1 1070 260 26 -92 0 "Subst1"1"2.6 mm"1"3 mm"1"26.85"0
+MLIN MS3 1 670 200 15 -26 1 "Subst1"1"1.3 mm"1"5 mm"1"26.85"0
+MMBEND MS5 1 670 60 -7 -72 1 "Subst1"1"1.3 mm"1
+MLIN MS8 1 830 60 -26 -91 2 "Subst1"1"1.3 mm"1"7 mm"1"26.85"0
+MMBEND MS9 1 960 60 15 -7 0 "Subst1"1"1.3 mm"1
+MTEE MS14 1 960 380 -115 -26 1 "Subst1"1"1.3 mm"1"1.3 mm"1"2.6 mm"1"showNumbers"0
+MTEE MS13 1 960 260 -116 -66 1 "Subst1"1"1.3 mm"1"1.3 mm"1"2.6 mm"1"showNumbers"0
+MLIN MS12 1 960 170 23 -35 1 "Subst1"1"1.3 mm"1"3.05 mm"1"26.85"0
+MLIN MS11 1 960 460 24 -33 1 "Subst1"1"1.3 mm"1"3.05 mm"1"26.85"0
+Pac P3 1 1230 580 18 -26 0 "2"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0
+.SP SP1 1 440 160 -3 10 0 "lin"1"0.1 GHz"1"5 GHz"1"981"1"no"0"1"0"2"0"none"0
+SUBST Subst1 1 450 460 -30 24 0 "4.4"1"1.6 mm"1"35 µm"1"0.01"1"1.72e-8"1"0"0"Metal"0"Hammerstad"0"Kirschning"0
+GND * 1 1230 20 0 0 2
+Pac P2 1 1230 50 -72 -26 2 "3"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0
+</Components>
+<Wires>
+580 310 640 310
+670 230 670 280
+670 340 670 400
+670 460 670 540
+700 570 800 570
+860 570 930 570
+960 490 960 540
+960 410 960 430
+670 90 670 170
+700 60 800 60
+860 60 930 60
+960 90 960 140
+960 200 960 230
+990 260 1040 260
+1100 260 1200 260
+1230 180 1230 230
+990 380 1050 380
+1230 410 1230 460
+1110 380 1200 380
+450 310 520 310
+1230 520 1230 550
+1230 80 1230 120
+</Wires>
+<Diagrams>
+</Diagrams>
+<Paintings>
+</Paintings>
