@@ -1,0 +1,30 @@
+<QucsStudio Schematic 5.9>
+<Properties>
+View=186.898,-11.3127,2258.18,908.756,1.92124,949,639
+Grid=10,10,0
+DataSet=*.dat
+DataDisplay=*.sch
+OpenDisplay=1
+showFrame=0
+FrameText0=Title \n @PATH@@FILE@
+FrameText1=Drawn By:
+FrameText2=Date: @DATE@
+FrameText3=Revision:
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+<Rect 590 460 360 220 31 #c0c0c0 1 00 1 0 2e+10 1e+11 1 -1.96894 5 21.6584 1 -0.891783 5 10.9902 -1 -1 -1 "" "" "">
+	<Legend 10 -100 0>
+	<"N1.v" "V" #0000ff 2 3 0 0 1 0 "">
+	<"N3.v" "V" #ff0000 2 3 0 0 0 0 "">
+	<"N2.v" "V" #00dc00 2 3 0 0 1 0 "">
+	<"N4.v" "V" #ff00ff 2 3 0 0 0 1 "">
+</Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
